@@ -1,0 +1,8 @@
+packages/
+bin/
+obj/
+rcf/
+ecf/
+csx/
+.vs/
+*.*proj.user

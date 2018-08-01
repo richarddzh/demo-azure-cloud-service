@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="DemoCloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="WebRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=zhdonclassictest;AccountKey=$(_zhdonclassictest.key_)" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="b7a4373e-e92e-46ee-840e-f9b886256836" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
