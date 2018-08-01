@@ -6,5 +6,8 @@
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
       <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="b7a4373e-e92e-46ee-840e-f9b886256836" />
     </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="https" thumbprint="279318B1FA149EBFA1CBF6CD236F8441D4DEEB34" thumbprintAlgorithm="sha1" />
+    </Certificates>
   </Role>
 </ServiceConfiguration>
